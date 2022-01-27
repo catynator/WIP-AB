@@ -1,0 +1,88 @@
+@font-face {
+  font-family: gobold bold;
+  src: url(Gobold-Bold.ttf);
+}
+
+@font-face {
+  font-family: gobold extra1;
+  src: url(Gobold-Extra1.ttf);
+}
+
+@font-face {
+  font-family: gobold hollow;
+  src: url(Gobold-Hollow-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu {
+  margin: 3em;
+}
+
+.menu a {
+  text-decoration: none;
+  position: relative;
+  margin: 2em;
+  color: black;
+  font-family: 'gobold extra1';
+  top: 1em;
+  left: 2em;
+  border-bottom: solid 1px transparent;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: -49em;
+  left: 900px;
+}
+
+a:hover {
+  font-family: 'gobold hollow';
+  border-bottom: 1px solid #fdfafa;
+}
+
+.beach img {
+  width: 40em;
+  height: auto;
+  border-radius: 3em;
+  position: relative;
+  left: 15em;
+  top: 5em;
+}
+
+.about {
+  background-color: #025DA0;
+  height: 40em;
+  width: 600px;
+  border-radius: 3em;
+  position: absolute;
+  left: 40em;
+  top: 20em;
+}
+
+.about h1 {
+  color: #D9D9D9;
+  font-family: gobold bold;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 1em;
+}
+
+.about p {
+  color: #D9D9D9;
+  font-family: gobold bold;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  width: 500px;
+  left: 2em;
+  top: 2em;
+}
+/*# sourceMappingURL=main.css.map */
